@@ -1,0 +1,22 @@
+{
+  "name": "matcher",
+  "version": "1.0.0",
+  "description": "A very convoluted solution to add Match to JS",
+  "main": "matcher.js",
+  "author": "brianboyko <brian.boyko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "test": "jest",
+    "pretty": "yarn prettier --write ./src"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@types/node": "^14.0.22",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.1"
+  }
+}
